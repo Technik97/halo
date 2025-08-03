@@ -9,3 +9,8 @@ let parse (code : string): char list =
   |> Seq.filter is_valid_char
   |> List.of_seq
 
+let () = 
+  let code = "++Hello World[->+<]" in
+  let instructions = parse code in 
+  List.iter (Printf.printf "%c") instructions;
+  print_newline ()
