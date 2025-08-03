@@ -1,0 +1,47 @@
+# Dune build artifacts
+/_build/
+*.install
+
+# Merlin configuration
+/.merlin
+
+# OCaml compiled files
+*.cmo
+*.cmi
+*.cmx
+*.cmt
+*.cmti
+*.cmxa
+*.cmxs
+*.annot
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.native
+*.byte
+
+# VS Code/editor files
+.vscode/
+.idea/
+
+# Opam and Dune configuration
+*.opam.locked
+*.opam.swp
+dune-project
+dune-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development files
+*.local
+.env
